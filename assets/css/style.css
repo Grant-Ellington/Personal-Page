@@ -49,7 +49,7 @@ nav ul li {
     padding: 1.58%;
 }
 .big-image{
-    width: 400%;
+    width: 1000px;
     height: auto;
 }
 .small-images{
@@ -88,4 +88,20 @@ nav ul li {
         display: flex;
         flex-direction: column;
     }
+    .big-image{
+        width:500px;
+        height:auto
+    }
+    img{
+        padding: 1%;
+        display: flex;
+        justify-content: 
+    };
 }
+
+@media screen and (max-width:425px ) {
+    .big-image{
+        width:250px;
+        height:auto;
+    }
+ }
