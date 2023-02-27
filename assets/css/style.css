@@ -95,8 +95,8 @@ nav ul li {
     img{
         padding: 1%;
         display: flex;
-        justify-content: 
-    };
+        justify-content:center;
+     }
 }
 
 @media screen and (max-width:425px ) {
@@ -104,4 +104,4 @@ nav ul li {
         width:250px;
         height:auto;
     }
- }
+}
