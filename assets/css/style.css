@@ -36,18 +36,18 @@ nav ul li {
 
 .heading {
     font-size: 50px;
-    display: flex;
+    /* display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: center; */
+    display:block;
     border-right: 5px solid black;
 }
 
 .about-content{
     padding: 1%;
 }
-#about-heading {
-    padding: 1.58%;
-}
+
+
 .big-image{
     width: 1000px;
     height: auto;
@@ -59,6 +59,23 @@ nav ul li {
  display: flex;
  justify-content: center;
  align-items: center;
+}
+
+.tab{
+    text-decoration: none;
+    color: var(--dark);
+}
+.tab:hover{
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+.contact-link{
+    padding: 2%;
+}
+footer{
+    display: flex;
+    justify-content: center;
 }
 
 @media screen and (max-width:768px ) {
