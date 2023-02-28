@@ -1,7 +1,7 @@
 :root{
     
 --dark: #000000;
---light: #fff;
+--light: rgb(255, 253, 253);
 --green: #b9c6ae;
 }
 
@@ -53,7 +53,7 @@ nav ul li {
     height: auto;
 }
 .small-images{
-    max-width: 100%;
+    max-width: 250px;
 }
 .contact-content{
  display: flex;
@@ -81,7 +81,9 @@ footer{
 #about-heading{
     padding-right: 1.19em;
 }
-
+.headshot{
+    max-width: 250px;
+}
 @media screen and (max-width:768px ) {
     nav ul {
         display: flex;
